@@ -8,7 +8,6 @@ import {
   MenuTrigger,
   Portal,
 } from "@ark-ui/react";
-// import { css } from "@styled-system/css";
 
 type Props = {
   children: ReactNode;

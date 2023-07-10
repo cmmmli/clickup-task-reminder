@@ -1,11 +1,11 @@
 import { Navbar } from "./components/Navbar";
-import { ReminderList } from "./components/ReminderList";
+import { Outlet } from "react-router-dom";
 
 function App() {
   return (
     <>
       <Navbar>
-        <ReminderList></ReminderList>
+        <Outlet />
       </Navbar>
     </>
   );
